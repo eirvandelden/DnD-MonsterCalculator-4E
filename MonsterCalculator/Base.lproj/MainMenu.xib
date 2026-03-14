@@ -999,9 +999,6 @@
                                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     </textFieldCell>
-                                    <connections>
-                                        <binding destination="494" name="value" keyPath="self.npc.Initiative" id="1068"/>
-                                    </connections>
                                 </textField>
                                 <textField verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dIC-Ua-quZ">
                                     <rect key="frame" x="48" y="22" width="38" height="22"/>

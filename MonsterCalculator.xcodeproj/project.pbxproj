@@ -3,23 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		320304E916C6D84E00EC77E8 /* DnDNPC.m in Sources */ = {isa = PBXBuildFile; fileRef = 320304E816C6D84E00EC77E8 /* DnDNPC.m */; };
 		322ACDBF1730157D00F24E0D /* dnd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 322ACDBE1730157D00F24E0D /* dnd.jpg */; };
 		32EACBAC16C65642007B0EC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EACBAB16C65642007B0EC1 /* Cocoa.framework */; };
 		32EACBB616C65642007B0EC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32EACBB416C65642007B0EC1 /* InfoPlist.strings */; };
-		32EACBB816C65642007B0EC1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EACBB716C65642007B0EC1 /* main.m */; };
 		32EACBBC16C65642007B0EC1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 32EACBBA16C65642007B0EC1 /* Credits.rtf */; };
-		32EACBBF16C65642007B0EC1 /* DnDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EACBBE16C65642007B0EC1 /* DnDAppDelegate.m */; };
 		32EACBC216C65642007B0EC1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32EACBC016C65642007B0EC1 /* MainMenu.xib */; };
+		CC000001AABB000000000004 /* DnDNPC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000001AABB000000000001 /* DnDNPC.swift */; };
+		CC000001AABB000000000005 /* DnDAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000001AABB000000000002 /* DnDAppDelegate.swift */; };
+		CC000001AABB000000000006 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC000001AABB000000000003 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		320304E716C6D84E00EC77E8 /* DnDNPC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DnDNPC.h; sourceTree = "<group>"; };
-		320304E816C6D84E00EC77E8 /* DnDNPC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DnDNPC.m; sourceTree = "<group>"; };
 		322ACDBE1730157D00F24E0D /* dnd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dnd.jpg; sourceTree = "<group>"; };
 		32EACBA816C65642007B0EC1 /* MonsterCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonsterCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32EACBAB16C65642007B0EC1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -28,12 +26,11 @@
 		32EACBB016C65642007B0EC1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		32EACBB316C65642007B0EC1 /* MonsterCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MonsterCalculator-Info.plist"; sourceTree = "<group>"; };
 		32EACBB516C65642007B0EC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		32EACBB716C65642007B0EC1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		32EACBB916C65642007B0EC1 /* MonsterCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MonsterCalculator-Prefix.pch"; sourceTree = "<group>"; };
 		32EACBBB16C65642007B0EC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		32EACBBD16C65642007B0EC1 /* DnDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DnDAppDelegate.h; sourceTree = "<group>"; };
-		32EACBBE16C65642007B0EC1 /* DnDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DnDAppDelegate.m; sourceTree = "<group>"; };
 		CC4F3EBF2355FD590034DF94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CC000001AABB000000000001 /* DnDNPC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DnDNPC.swift; sourceTree = "<group>"; };
+		CC000001AABB000000000002 /* DnDAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DnDAppDelegate.swift; sourceTree = "<group>"; };
+		CC000001AABB000000000003 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,11 +84,9 @@
 		32EACBB116C65642007B0EC1 /* MonsterCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				32EACBBD16C65642007B0EC1 /* DnDAppDelegate.h */,
-				32EACBBE16C65642007B0EC1 /* DnDAppDelegate.m */,
+				CC000001AABB000000000002 /* DnDAppDelegate.swift */,
+				CC000001AABB000000000001 /* DnDNPC.swift */,
 				32EACBC016C65642007B0EC1 /* MainMenu.xib */,
-				320304E716C6D84E00EC77E8 /* DnDNPC.h */,
-				320304E816C6D84E00EC77E8 /* DnDNPC.m */,
 				32EACBB216C65642007B0EC1 /* Supporting Files */,
 			);
 			path = MonsterCalculator;
@@ -103,8 +98,7 @@
 				322ACDBE1730157D00F24E0D /* dnd.jpg */,
 				32EACBB316C65642007B0EC1 /* MonsterCalculator-Info.plist */,
 				32EACBB416C65642007B0EC1 /* InfoPlist.strings */,
-				32EACBB716C65642007B0EC1 /* main.m */,
-				32EACBB916C65642007B0EC1 /* MonsterCalculator-Prefix.pch */,
+				CC000001AABB000000000003 /* main.swift */,
 				32EACBBA16C65642007B0EC1 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -137,11 +131,11 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = DnD;
-				LastUpgradeCheck = 1210;
+				LastUpgradeCheck = 1600;
 				ORGANIZATIONNAME = "Etienne van Delden";
 			};
 			buildConfigurationList = 32EACBA316C65641007B0EC1 /* Build configuration list for PBXProject "MonsterCalculator" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -177,9 +171,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32EACBB816C65642007B0EC1 /* main.m in Sources */,
-				32EACBBF16C65642007B0EC1 /* DnDAppDelegate.m in Sources */,
-				320304E916C6D84E00EC77E8 /* DnDNPC.m in Sources */,
+				CC000001AABB000000000006 /* main.swift in Sources */,
+				CC000001AABB000000000005 /* DnDAppDelegate.swift in Sources */,
+				CC000001AABB000000000004 /* DnDNPC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +212,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -242,25 +233,22 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -269,9 +257,6 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
@@ -293,8 +278,6 @@
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -302,8 +285,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -311,12 +295,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MonsterCalculator/MonsterCalculator-Prefix.pch";
 				INFOPLIST_FILE = "MonsterCalculator/MonsterCalculator-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "eirvandelden.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -325,12 +307,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "-";
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MonsterCalculator/MonsterCalculator-Prefix.pch";
 				INFOPLIST_FILE = "MonsterCalculator/MonsterCalculator-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "eirvandelden.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
